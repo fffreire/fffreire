@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" width="820" height="400" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">
+  <style>
+    .l { opacity: 0; }
+    .l0 { animation: s0 16s infinite; }
+    @keyframes s0 { 0%, 1.88% { opacity: 0; } 2.48%, 94% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    .l1 { animation: s1 16s infinite; }
+    @keyframes s1 { 0%, 8.12% { opacity: 0; } 8.72%, 94% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    .l2 { animation: s2 16s infinite; }
+    @keyframes s2 { 0%, 15.00% { opacity: 0; } 15.60%, 94% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    .l3 { animation: s3 16s infinite; }
+    @keyframes s3 { 0%, 25.00% { opacity: 0; } 25.60%, 94% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    .l4 { animation: s4 16s infinite; }
+    @keyframes s4 { 0%, 35.00% { opacity: 0; } 35.60%, 94% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    .l5 { animation: s5 16s infinite; }
+    @keyframes s5 { 0%, 41.25% { opacity: 0; } 41.85%, 94% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    .l6 { animation: s6 16s infinite; }
+    @keyframes s6 { 0%, 48.75% { opacity: 0; } 49.35%, 94% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    .l7 { animation: s7 16s infinite; }
+    @keyframes s7 { 0%, 58.75% { opacity: 0; } 59.35%, 94% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    .p { fill: #7ee787; }
+    .t { fill: #e6edf3; }
+    .m { fill: #8b949e; }
+    .ok { fill: #3fb950; }
+    .bot { fill: #d2a8ff; }
+    .bad { fill: #ff7b72; }
+    .cursor { animation: blink 1s steps(1) infinite; fill: #e6edf3; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .c0 { animation: c0 16s infinite; }
+    @keyframes c0 { 0%, 67.50% { opacity: 0; transform: scale(0); } 67.51% { opacity: 1; transform: scale(0); } 68.30% { transform: scale(1.5); } 69.10%, 94% { opacity: 1; transform: scale(1); } 97%, 100% { opacity: 0; transform: scale(1); } }
+    .c1 { animation: c1 16s infinite; }
+    @keyframes c1 { 0%, 68.88% { opacity: 0; transform: scale(0); } 68.89% { opacity: 1; transform: scale(0); } 69.68% { transform: scale(1.5); } 70.48%, 94% { opacity: 1; transform: scale(1); } 97%, 100% { opacity: 0; transform: scale(1); } }
+    .c2 { animation: c2 16s infinite; }
+    @keyframes c2 { 0%, 70.25% { opacity: 0; transform: scale(0); } 70.26% { opacity: 1; transform: scale(0); } 71.05% { transform: scale(1.5); } 71.85%, 94% { opacity: 1; transform: scale(1); } 97%, 100% { opacity: 0; transform: scale(1); } }
+    .c3 { animation: c3 16s infinite; }
+    @keyframes c3 { 0%, 71.62% { opacity: 0; transform: scale(0); } 71.64% { opacity: 1; transform: scale(0); } 72.42% { transform: scale(1.5); } 73.22%, 94% { opacity: 1; transform: scale(1); } 97%, 100% { opacity: 0; transform: scale(1); } }
+    .c4 { animation: c4 16s infinite; }
+    @keyframes c4 { 0%, 73.00% { opacity: 0; transform: scale(0); } 73.01% { opacity: 1; transform: scale(0); } 73.80% { transform: scale(1.5); } 74.60%, 94% { opacity: 1; transform: scale(1); } 97%, 100% { opacity: 0; transform: scale(1); } }
+    .c5 { animation: c5 16s infinite; }
+    @keyframes c5 { 0%, 74.38% { opacity: 0; transform: scale(0); } 74.39% { opacity: 1; transform: scale(0); } 75.17% { transform: scale(1.5); } 75.97%, 94% { opacity: 1; transform: scale(1); } 97%, 100% { opacity: 0; transform: scale(1); } }
+    .c6 { animation: c6 16s infinite; }
+    @keyframes c6 { 0%, 75.75% { opacity: 0; transform: scale(0); } 75.76% { opacity: 1; transform: scale(0); } 76.55% { transform: scale(1.5); } 77.35%, 94% { opacity: 1; transform: scale(1); } 97%, 100% { opacity: 0; transform: scale(1); } }
+    .c7 { animation: c7 16s infinite; }
+    @keyframes c7 { 0%, 77.12% { opacity: 0; transform: scale(0); } 77.14% { opacity: 1; transform: scale(0); } 77.92% { transform: scale(1.5); } 78.72%, 94% { opacity: 1; transform: scale(1); } 97%, 100% { opacity: 0; transform: scale(1); } }
+    .c8 { animation: c8 16s infinite; }
+    @keyframes c8 { 0%, 78.50% { opacity: 0; transform: scale(0); } 78.51% { opacity: 1; transform: scale(0); } 79.30% { transform: scale(1.5); } 80.10%, 94% { opacity: 1; transform: scale(1); } 97%, 100% { opacity: 0; transform: scale(1); } }
+    .c9 { animation: c9 16s infinite; }
+    @keyframes c9 { 0%, 79.88% { opacity: 0; transform: scale(0); } 79.89% { opacity: 1; transform: scale(0); } 80.67% { transform: scale(1.5); } 81.47%, 94% { opacity: 1; transform: scale(1); } 97%, 100% { opacity: 0; transform: scale(1); } }
+    .c10 { animation: c10 16s infinite; }
+    @keyframes c10 { 0%, 81.25% { opacity: 0; transform: scale(0); } 81.26% { opacity: 1; transform: scale(0); } 82.05% { transform: scale(1.5); } 82.85%, 94% { opacity: 1; transform: scale(1); } 97%, 100% { opacity: 0; transform: scale(1); } }
+    .c11 { animation: c11 16s infinite; }
+    @keyframes c11 { 0%, 82.62% { opacity: 0; transform: scale(0); } 82.64% { opacity: 1; transform: scale(0); } 83.42% { transform: scale(1.5); } 84.22%, 94% { opacity: 1; transform: scale(1); } 97%, 100% { opacity: 0; transform: scale(1); } }
+    .c12 { animation: c12 16s infinite; }
+    @keyframes c12 { 0%, 84.00% { opacity: 0; transform: scale(0); } 84.01% { opacity: 1; transform: scale(0); } 84.80% { transform: scale(1.5); } 85.60%, 94% { opacity: 1; transform: scale(1); } 97%, 100% { opacity: 0; transform: scale(1); } }
+    .c13 { animation: c13 16s infinite; }
+    @keyframes c13 { 0%, 85.38% { opacity: 0; transform: scale(0); } 85.39% { opacity: 1; transform: scale(0); } 86.17% { transform: scale(1.5); } 86.97%, 94% { opacity: 1; transform: scale(1); } 97%, 100% { opacity: 0; transform: scale(1); } }
+    .cur { animation: cur 16s infinite; }
+    @keyframes cur { 0%, 86.75% { opacity: 0; } 86.76%, 94% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    .clown { font-size: 22px; opacity: 0; transform-box: fill-box; transform-origin: center; }
+  </style>
+  <rect width="820" height="400" rx="14" fill="#0d1117"/>
+  <rect width="820" height="40" rx="14" fill="#161b22"/>
+  <rect y="26" width="820" height="14" fill="#161b22"/>
+  <circle cx="26" cy="20" r="7" fill="#ff5f57"/>
+  <circle cx="50" cy="20" r="7" fill="#febc2e"/>
+  <circle cx="74" cy="20" r="7" fill="#28c840"/>
+  <text x="410" y="25" text-anchor="middle" class="m" font-size="14">fffreire — the loop</text>
+
+  <text x="28" y="80" class="l l0"><tspan class="p">$</tspan><tspan class="t"> git push</tspan></text>
+  <text x="28" y="110" class="l l1"><tspan class="ok">✓ 48 tests passed</tspan></text>
+  <text x="28" y="140" class="l l2"><tspan class="bot">🤖 review bot: confidence 5/5. safe to merge.</tspan></text>
+  <text x="28" y="170" class="l l3"><tspan class="bot">🤖 review bot: </tspan><tspan class="bad">also, 3 new findings.</tspan></text>
+  <text x="28" y="210" class="l l4"><tspan class="p">$</tspan><tspan class="t"> git commit -m "fix: the fix for the fix"</tspan></text>
+  <text x="28" y="240" class="l l5"><tspan class="p">$</tspan><tspan class="t"> git push</tspan></text>
+  <text x="28" y="270" class="l l6"><tspan class="bot">🤖 review bot: confidence 5/5. safe to merge.</tspan></text>
+  <text x="28" y="300" class="l l7"><tspan class="bot">🤖 review bot: </tspan><tspan class="bad">also, 2 new findings.</tspan></text>
+  <text x="28" y="347" class="clown c0">🤡</text>
+  <text x="58" y="347" class="clown c1">🤡</text>
+  <text x="88" y="347" class="clown c2">🤡</text>
+  <text x="118" y="347" class="clown c3">🤡</text>
+  <text x="148" y="347" class="clown c4">🤡</text>
+  <text x="178" y="347" class="clown c5">🤡</text>
+  <text x="208" y="347" class="clown c6">🤡</text>
+  <text x="238" y="347" class="clown c7">🤡</text>
+  <text x="268" y="347" class="clown c8">🤡</text>
+  <text x="298" y="347" class="clown c9">🤡</text>
+  <text x="328" y="347" class="clown c10">🤡</text>
+  <text x="358" y="347" class="clown c11">🤡</text>
+  <text x="388" y="347" class="clown c12">🤡</text>
+  <text x="418" y="347" class="clown c13">🤡</text>
+  <g class="cur"><text x="452" y="345" class="cursor">█</text></g>
+</svg>
